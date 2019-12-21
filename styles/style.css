@@ -3,8 +3,8 @@
 /* colors: https://flatuicolors.com/palette/us */
 
 body {
-  padding:0px;
-  margin:0px;
+  margin: 0px;
+  padding: 0px;
 /*  background-image: url("../img/light_background.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,25 +15,15 @@ body {
 
 
 /*__________________________________________________*/
+div.appbox {
 
-div.app {
-  margin: 30px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
 }
-
-
-
 /*__________________________________________________*/
 
 img.icon {
   border-radius: 10px;;
   height: 60px;
-}
-img.screenshot {
-  height: 500px;
-  text-align: center;
+  margin: 10px;
 }
 
 img.appstore_button {
@@ -43,15 +33,13 @@ img.appstore_button {
 a.app_name {
   color: black;
   text-decoration: none;
-  margin-left: 20px;
-  margin-right: 20px;
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
 }
 
 img.socialmedia_icon {
-  margin: 30px;
   height: 30px;
+  margin: 0 auto;
 }
 
 div.socialmedia {
@@ -59,4 +47,9 @@ div.socialmedia {
   vertical-align: bottom;
 }
 
+/*img.screenshot {
+  height: 500px;
+  text-align: center;
+}
+*/
 /* ist ja nur ein kommentar*/
