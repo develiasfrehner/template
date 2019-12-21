@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* colors: https://flatuicolors.com/palette/us */
+
+body {
+  padding:0px;
+  margin:0px;
+/*  background-image: url("../img/light_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;*/
+  background-color: #2d3436
+}
+
+
+p.develiasfrehner {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+img.elias_memoji {
+  height: 70px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+
+
+/*__________________________________________________*/
+
+div.appsection {
+  background-image: linear-gradient(to bottom right, #ffeaa7, #fdcb6e, #e17055);
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+div.appsection:hover {
+  background-image: linear-gradient(to bottom right, #ffd759, #fcbc44, #db5332);
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+div.appsection2 {
+  background-image: linear-gradient(to top right, #81ecec, #55efc4, #a29bfe);
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+div.appsection2:hover {
+  background-image: linear-gradient(to top right, #55cfed, #2bf091, #7a70ff);
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+div.appsection3 {
+  background-image: linear-gradient(to top left, #6c5ce7, #fd79a8, #e17055);
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+div.appsection3:hover {
+  background-image: linear-gradient(to top left, #2f18db, #fa3271, #db4332);
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/*__________________________________________________*/
+
+img.app_logo {
+  border-radius: 10px;;
+  height: 60px;
+}
+
+a.app_name {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img.socialmedia_icon {
+  margin: 30px;
+  height: 30px;
+}
+
+div.socialmedia {
+  text-align: center;
+}
+
+/* ist ja nur ein kommentar*/
