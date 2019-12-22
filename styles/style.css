@@ -24,41 +24,47 @@ div.appbox {
   float: left;
   display: flex;
   align-items: center;
-  padding: 20px;
   width: 100%;
-  background-color: red;
 }
 
 img.icon {
   border-radius: 10px;;
-  height: 60px;
+  width: 50px;
+  margin: 20px;
 }
 
 img.appstore_button {
-  height: 40px;
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 a.app_name {
-  color: black;
+  color: white;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 120%;
   font-family: 'Roboto', sans-serif;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 img.socialmedia_icon {
+  margin: 30px;
   height: 30px;
-  margin: 0 auto;
 }
 
 div.socialmedia {
   text-align: center;
-  vertical-align: bottom;
 }
 
-/*img.screenshot {
-  height: 500px;
-  text-align: center;
+img.screenshot {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-*/
+
 /* ist ja nur ein kommentar*/
