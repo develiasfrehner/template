@@ -20,12 +20,16 @@ div.appbox {
 }
 /*__________________________________________________*/
 
+div.appbox {
+  float: left;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
 img.icon {
   border-radius: 10px;;
   height: 60px;
-  margin: 10px;
-  margin: 20px;
-  position: absolute;
 }
 
 img.appstore_button {
@@ -37,9 +41,7 @@ a.app_name {
   text-decoration: none;
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
-  position: absolute;
-  margin-left: 0px;
-  margin-top: 40px;
+  margin-left: 20px;
 }
 
 img.socialmedia_icon {
