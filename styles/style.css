@@ -25,6 +25,8 @@ div.appbox {
   display: flex;
   align-items: center;
   padding: 20px;
+  width: 100%;
+  background-color: red;
 }
 
 img.icon {
